@@ -2,7 +2,7 @@
 
 ## 👥 Integrantes
 - Cristhian Eduardo Kapelinski de Avilla (@CristhianKapelinski) - Especialidade: 
-- Mariana Rodrigues Padilha (@) - Especialidade: 
+- Mariana Rodrigues Padilha (@MariPadilha) - Especialidade: 
 - Yang da Fontoura Rodrigues (@Y4ngfr) - Especialidade: 
 
 ## 🎯 Metas
