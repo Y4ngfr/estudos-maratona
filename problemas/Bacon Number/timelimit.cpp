@@ -126,7 +126,7 @@ int main() {
                 ator_mais_frequente = consultas[j][1];
             }
         }
-        
+
         dijkstra(atores, filmes, ator_mais_frequente, m+1);
 
         for(auto it = consultas.begin(); it != consultas.end();)
@@ -165,24 +165,22 @@ int main() {
             else if(consulta[1] == ator_mais_frequente)
             {
                 if(dist[consulta[0]] != INF){
-                    stack<ll> pilha;
                     ll idx = consulta[0];
+                    vector<ll> caminho;
 
                     while(ator_anterior[idx] != -1){
-                        pilha.push(idx);
-                        pilha.push(filme_anterior[idx]);
+                        caminho.push_back(idx);
+                        caminho.push_back(filme_anterior[idx]);
 
                         idx = ator_anterior[idx];
                     }
-                    pilha.push(idx);
-
-                    saida[consulta[2]] << pilha.size() - pilha.size()/2 << endl;
-
-                    while(!pilha.empty()){
-                        saida[consulta[2]] << pilha.top() << " ";
-                        pilha.pop();
-                    }
+                    caminho.push_back(idx);
                     
+                    saida[consulta[2]] << caminho.size() - caminho.size()/2 << endl;
+                    
+                    for(auto &l : caminho){
+                        saida[consulta[2]] << l << " ";
+                    }
                     saida[consulta[2]] << endl;
                 }
                 else{

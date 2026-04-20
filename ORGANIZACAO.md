@@ -8,7 +8,7 @@ Este documento explica como o repositório está estruturado e como cada membro 
 /
 ├── README.md                    # Visão geral do projeto e metas do grupo
 │
-├── topicos/                     # ESTUDOS POR TÓPICO
+├── estudos/                     # ESTUDOS POR TEMA
 │   ├── 01-estruturas-dados/
 │   ├── 02-grafos/
 │   ├── 03-programacao-dinamica/
@@ -20,7 +20,7 @@ Este documento explica como o repositório está estruturado e como cada membro 
 │
 ├── templates/                   # CÓDIGOS REUTILIZÁVEIS
 │
-├── notes/                       # ANOTAÇÕES E MATERIAL TEÓRICO
+├── problemas/                   # Repositório de problemas
 │
 └── utils/                       # SCRIPTS AUXILIARES
 
